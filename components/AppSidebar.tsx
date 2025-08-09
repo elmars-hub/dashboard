@@ -78,8 +78,8 @@ const AppSidebar = () => {
           <SidebarMenuItem>
             <SidebarMenuButton asChild>
               <Link href="/">
-                <Image src="/logo.svg" alt="logo" width={20} height={20} />
-                <span>Lama Dev</span>
+                {/* <Image src="" alt="logo" width={20} height={20} /> */}
+                <span>Dev Hub</span>
               </Link>
             </SidebarMenuButton>
           </SidebarMenuItem>
@@ -201,6 +201,7 @@ const AppSidebar = () => {
           </SidebarGroupContent>
         </SidebarGroup>
       </SidebarContent>
+      {/* FOOTER */}
       <SidebarFooter>
         <SidebarMenu>
           <SidebarMenuItem>
